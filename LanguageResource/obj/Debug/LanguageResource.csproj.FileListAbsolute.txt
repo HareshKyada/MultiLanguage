@@ -1,0 +1,14 @@
+D:\Haresh\MultiLanguage\LanguageResource\bin\Debug\login.resx
+D:\Haresh\MultiLanguage\LanguageResource\bin\Debug\login.FR.resx
+D:\Haresh\MultiLanguage\LanguageResource\bin\Debug\login.Designer.cs
+D:\Haresh\MultiLanguage\LanguageResource\bin\Debug\LanguageResource.dll
+D:\Haresh\MultiLanguage\LanguageResource\bin\Debug\LanguageResource.pdb
+D:\Haresh\MultiLanguage\LanguageResource\bin\Debug\FR\LanguageResource.resources.dll
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\LanguageResource.login.resources
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\LanguageResource.login.FR.resources
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\LanguageResource.csproj.GenerateResource.Cache
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\FR\LanguageResource.resources.dll
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\LanguageResource.dll
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\LanguageResource.pdb
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\LanguageResource.Master.resources
+D:\Haresh\MultiLanguage\LanguageResource\obj\Debug\LanguageResource.Master.FR.resources

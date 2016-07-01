@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    @Html.GetCommonScriptsAndStyles()
+    @Html.LoadStylesAndScripts(Html.Action("GetBlogTheme", "Base", new { area = "" }).ToString())
+</head>
+<body>
+
+    <div id="wrapper">
+        <div id="menu">
+            @Html.DropdownForLanguage("drpLanguage", new { @class = "languageDrp" })
+        </div>
+        <!-- end #menu -->
+        <div id="header">
+            <div id="logo">
+                @Html.Action("Logo", "Base", new { area = "" })
+            </div>
+        </div>
+        <!-- end #header -->
+
+        <div id="content">
+            @RenderBody()
+            <div style="clear: both;">&nbsp;</div>
+        </div>
+        <!-- end #content -->
+        <div id="sidebar">
+        </div>
+        <!-- end #sidebar -->
+        <div style="clear: both;">&nbsp;</div>
+
+        <div class="footer">
+            @Html.Raw(@LanguageResource.Master.CopyRight) @DateTime.Now.Year
+        </div>
+    </div>
+    <!-- end #footer -->
+</body>
+</html>

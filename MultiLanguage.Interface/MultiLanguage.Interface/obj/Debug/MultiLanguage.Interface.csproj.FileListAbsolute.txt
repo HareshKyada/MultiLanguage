@@ -1,0 +1,4 @@
+D:\Haresh\MultiLanguage\MultiLanguage.Interface\MultiLanguage.Interface\bin\Debug\MultiLanguage.Interface.dll
+D:\Haresh\MultiLanguage\MultiLanguage.Interface\MultiLanguage.Interface\bin\Debug\MultiLanguage.Interface.pdb
+D:\Haresh\MultiLanguage\MultiLanguage.Interface\MultiLanguage.Interface\obj\Debug\MultiLanguage.Interface.dll
+D:\Haresh\MultiLanguage\MultiLanguage.Interface\MultiLanguage.Interface\obj\Debug\MultiLanguage.Interface.pdb

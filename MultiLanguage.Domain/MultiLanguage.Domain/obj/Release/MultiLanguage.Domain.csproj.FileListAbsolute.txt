@@ -1,0 +1,7 @@
+D:\Haresh\MultiLanguage\MultiLanguage.Domain\MultiLanguage.Domain\bin\Release\MultiLanguage.Domain.dll
+D:\Haresh\MultiLanguage\MultiLanguage.Domain\MultiLanguage.Domain\bin\Release\MultiLanguage.Domain.pdb
+D:\Haresh\MultiLanguage\MultiLanguage.Domain\MultiLanguage.Domain\bin\Release\MultiLanguage.Interface.dll
+D:\Haresh\MultiLanguage\MultiLanguage.Domain\MultiLanguage.Domain\bin\Release\MultiLanguage.Interface.pdb
+D:\Haresh\MultiLanguage\MultiLanguage.Domain\MultiLanguage.Domain\obj\Release\MultiLanguage.Domain.csprojResolveAssemblyReference.cache
+D:\Haresh\MultiLanguage\MultiLanguage.Domain\MultiLanguage.Domain\obj\Release\MultiLanguage.Domain.dll
+D:\Haresh\MultiLanguage\MultiLanguage.Domain\MultiLanguage.Domain\obj\Release\MultiLanguage.Domain.pdb

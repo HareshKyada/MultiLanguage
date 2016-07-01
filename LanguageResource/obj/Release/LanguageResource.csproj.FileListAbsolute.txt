@@ -1,0 +1,15 @@
+D:\Haresh\MultiLanguage\LanguageResource\bin\Release\login.resx
+D:\Haresh\MultiLanguage\LanguageResource\bin\Release\login.FR.resx
+D:\Haresh\MultiLanguage\LanguageResource\bin\Release\login.Designer.cs
+D:\Haresh\MultiLanguage\LanguageResource\bin\Release\LanguageResource.dll
+D:\Haresh\MultiLanguage\LanguageResource\bin\Release\LanguageResource.pdb
+D:\Haresh\MultiLanguage\LanguageResource\bin\Release\FR\LanguageResource.resources.dll
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.login.resources
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.login.FR.resources
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.csproj.GenerateResource.Cache
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\FR\LanguageResource.resources.dll
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.dll
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.pdb
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.csprojResolveAssemblyReference.cache
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.Master.resources
+D:\Haresh\MultiLanguage\LanguageResource\obj\Release\LanguageResource.Master.FR.resources

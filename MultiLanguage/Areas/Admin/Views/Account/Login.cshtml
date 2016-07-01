@@ -1,0 +1,33 @@
+﻿@model MultiLanguage.Admin.Models.LoginModel
+
+@{
+    Layout = null;//"~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<style>
+    #wrapper
+    {
+        background:none!important;
+    }
+</style>
+<div class="login-form">
+
+
+    <h1>@LanguageResource.login.Title</h1>
+    @using (Html.BeginForm("Login","Account",FormMethod.Post, new { @class = "login" }))
+    {
+        @Html.AntiForgeryToken()
+        @Html.ValidationSummary(true)
+
+        @Html.TextBoxFor(m => m.UserName, new { @class = "text", placeholder = @LanguageResource.login.UserName })
+        @Html.ValidationMessageFor(m => m.UserName)
+        
+        @Html.PasswordFor(m => m.Password, new { @class = "text", placeholder = @LanguageResource.login.Password })
+        @Html.ValidationMessageFor(m => m.Password)
+        <div class="submit">
+            <input class="button" type="submit" value="@LanguageResource.login.LoginButton" />
+        </div>	
+        <p>@Html.ActionLink(@LanguageResource.login.ForgotPassword, "Admin", null, new { href = "#!", @class = "forgotpassword" })
+        </p>
+    }
+</div>
+

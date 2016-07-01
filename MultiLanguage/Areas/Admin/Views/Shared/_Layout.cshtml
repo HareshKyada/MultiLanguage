@@ -1,0 +1,42 @@
+﻿@using System.Web.Optimization;
+<!DOCTYPE html>
+<html lang="en">
+@*<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.Title - My ASP.NET MVC Application</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    @Styles.Render("~/admin/bundles/style")
+    @Scripts.Render("~/admin/bundles/scripts")
+
+</head>*@
+<head>
+    <title>@ViewBag.Title</title>
+    @Html.GetCommonScriptsAndStyles()
+    @Html.LoadStylesAndScripts(Html.Action("GetBlogTheme", "Blog").ToString())
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header-wrapper">
+            <div id="header">
+                <div id="logo">
+                    @Html.Action("Logo", "Base",new{area=""})
+                </div>
+                <div id="menu">
+                </div>
+            </div>
+        </div>
+        <!-- end #header -->
+        <div id="content">
+            @RenderBody()
+        </div>
+        <div style="clear: both;">&nbsp;</div>
+
+
+    </div>
+    <div id="footer">
+        footer
+    </div>
+
+</body>
+</html>

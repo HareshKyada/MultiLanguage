@@ -1,0 +1,4 @@
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\bin\Debug\MultiLanguage.Database.dll
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\bin\Debug\MultiLanguage.Database.pdb
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\obj\Debug\MultiLanguage.Database.dll
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\obj\Debug\MultiLanguage.Database.pdb

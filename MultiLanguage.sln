@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguage", "MultiLanguage\MultiLanguage.csproj", "{E4E0C5D5-CF68-45AC-AD7E-B658520F960C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LanguageResource", "LanguageResource\LanguageResource.csproj", "{AD618DB6-EB4E-4E70-A775-525D06E8218A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiLanguage.Interface", "MultiLanguage.Interface", "{82921195-1DBC-477C-B373-1D9C8EDFA2D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguage.Interface", "MultiLanguage.Interface\MultiLanguage.Interface\MultiLanguage.Interface.csproj", "{6B540BB7-6696-4271-BA92-F34B2251FCCB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiLanguage.DB", "MultiLanguage.DB", "{8E782B0C-89CE-411B-82F3-EB0CF23E3440}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguage.Database", "MultiLanguage.DB\MultiLanguage.Database\MultiLanguage.Database.csproj", "{179EC2D3-336F-4592-B6BF-C5A49C063A40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MultiLanguage.Domain", "MultiLanguage.Domain", "{7BC127E2-258C-4AA1-B107-8DCF6DC8D719}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiLanguage.Domain", "MultiLanguage.Domain\MultiLanguage.Domain\MultiLanguage.Domain.csproj", "{DAB20414-9A53-4C56-B712-5D68F40EE693}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E4E0C5D5-CF68-45AC-AD7E-B658520F960C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4E0C5D5-CF68-45AC-AD7E-B658520F960C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4E0C5D5-CF68-45AC-AD7E-B658520F960C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4E0C5D5-CF68-45AC-AD7E-B658520F960C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD618DB6-EB4E-4E70-A775-525D06E8218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD618DB6-EB4E-4E70-A775-525D06E8218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD618DB6-EB4E-4E70-A775-525D06E8218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD618DB6-EB4E-4E70-A775-525D06E8218A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B540BB7-6696-4271-BA92-F34B2251FCCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B540BB7-6696-4271-BA92-F34B2251FCCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B540BB7-6696-4271-BA92-F34B2251FCCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B540BB7-6696-4271-BA92-F34B2251FCCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{179EC2D3-336F-4592-B6BF-C5A49C063A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{179EC2D3-336F-4592-B6BF-C5A49C063A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{179EC2D3-336F-4592-B6BF-C5A49C063A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{179EC2D3-336F-4592-B6BF-C5A49C063A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAB20414-9A53-4C56-B712-5D68F40EE693}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB20414-9A53-4C56-B712-5D68F40EE693}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB20414-9A53-4C56-B712-5D68F40EE693}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB20414-9A53-4C56-B712-5D68F40EE693}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B540BB7-6696-4271-BA92-F34B2251FCCB} = {82921195-1DBC-477C-B373-1D9C8EDFA2D3}
+		{179EC2D3-336F-4592-B6BF-C5A49C063A40} = {8E782B0C-89CE-411B-82F3-EB0CF23E3440}
+		{DAB20414-9A53-4C56-B712-5D68F40EE693} = {7BC127E2-258C-4AA1-B107-8DCF6DC8D719}
+	EndGlobalSection
+EndGlobal

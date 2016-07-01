@@ -1,0 +1,5 @@
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\bin\Release\MultiLanguage.Database.dll
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\bin\Release\MultiLanguage.Database.pdb
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\obj\Release\MultiLanguage.Database.csprojResolveAssemblyReference.cache
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\obj\Release\MultiLanguage.Database.dll
+D:\Haresh\MultiLanguage\MultiLanguage.DB\MultiLanguage.Database\obj\Release\MultiLanguage.Database.pdb

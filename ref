@@ -1,0 +1,68 @@
+  public PagedDataTable<ClientHiringManagerMaster> GetAllClientHiringManagers(int companyID, int clientID, int pageNo = 1, int pageSize = 0, string orderBy = "", string sortBy = "", string search = "")
+        {
+            DataTable table = new DataTable();
+            try
+            {
+                SqlParameter[] param = {new SqlParameter("@CompanyID",companyID)
+                                ,new SqlParameter("@ClientID",clientID)
+                                ,new SqlParameter("@PageNo",pageNo)
+                                ,new SqlParameter("@PageSize",pageSize)
+                                ,new SqlParameter("@SearchString",search)
+                                ,new SqlParameter("@OrderBy",orderBy)
+                                ,new SqlParameter("@SortBy",sortBy=="ASC"?0:1)                                
+                               };
+                using (DataSet ds = SqlHelper.ExecuteDataset(connection, CommandType.StoredProcedure, "Beta_usp_GetAll_ClientHiringManagers", param))
+                {
+                    if (ds.Tables.Count > 0)
+                    {
+                        table = ds.Tables[0];
+                        if (table.Rows.Count > 0)
+                        {
+                            if (table.ContainColumn("TotalCount"))
+                                totalItemCount = table.Rows[0]["TotalCount"].ToInt();
+                            else
+                                totalItemCount = table.Rows.Count;
+                        }
+                    }
+                    return table.ToPagedDataTableList<ClientHiringManagerMaster>(pageNo, pageSize, totalItemCount, search, orderBy, sortBy);
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                if (table != null)
+                    table.Dispose();
+            }
+        }
+        public ClientHiringManagerMaster GetClientHiringManagerMaster(int companyID, int ClientHiringManagerID)
+        {
+            ClientHiringManagerMaster rd = null;
+            try
+            {
+                SqlParameter[] param = {new SqlParameter("@CompanyID",companyID)
+                                        ,new SqlParameter("@ClientHiringManagerID", ClientHiringManagerID) 
+                                    };
+                using (DataSet ds = SqlHelper.ExecuteDataset(connection, CommandType.StoredProcedure, "Beta_usp_Get_ClientHiringManagerMaster", param))
+                {
+                    if (ds.Tables.Count > 0)
+                    {
+                        DataTable dt = new DataTable();
+                        dt = ds.Tables[0];
+                        if (dt.Rows.Count > 0)
+                        {
+                            DataRow dr = dt.Rows[0];
+                            rd = dr.ToPagedDataTableList<ClientHiringManagerMaster>();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            return rd;
+        }
+        
